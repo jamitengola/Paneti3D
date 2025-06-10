@@ -3,7 +3,7 @@ const express = require('express');
 const path = require('path');
 
 const app = express();
-const PORT = 3000;
+const PORT = 3002;
 
 // Serve arquivos estáticos da pasta atual
 app.use(express.static(__dirname));
